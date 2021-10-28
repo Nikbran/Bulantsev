@@ -1,0 +1,6 @@
+a = random.randrange(1,10)
+print("Ребро куба: ", a)
+V = a**3
+print("Объем: ", V)
+S = 6 * a**2
+print("Площадь поверхности: ", S)
