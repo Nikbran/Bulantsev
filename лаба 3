@@ -1,0 +1,32 @@
+print('Добро пожаловать на викторину')
+answer=input('Вы готовы отвечать на самые сложные вопросы? (да/нет) :')
+score=0
+total_questions=3
+
+if answer.lower()=='да':
+    answer=input('Вопрос 1: Какой твой любимый язык програмирования?')
+    if answer.lower()=='python':
+        score += 1
+        print('Правильно')
+    else:
+        print('Неверный ответ :(')
+
+
+    answer=input('Вопрос 2: Чему равна производная от числа 59302?')
+    if answer.lower()=='0':
+        score += 1
+        print('Правильно')
+    else:
+        print('Неверный пароль :(')
+
+    answer=input('Вопрос 3: Какой номер ФЗ "О полиции"?')
+    if answer.lower()=='3':
+        score += 1
+        print('Правильно')
+    else:
+        print('Неверный ответ :(')
+
+print('Спасибо,  что сыграли в игру, вы ответили на',score,"вопроса верно!")
+mark=(score/total_questions)*100
+print('Вы набрали:',mark,"баллов")
+print('Пока!')
