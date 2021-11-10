@@ -17,7 +17,7 @@ if answer.lower()=='да':
         score += 1
         print('Правильно')
     else:
-        print('Неверный пароль :(')
+        print('Неверный ответ :(')
 
     answer=input('Вопрос 3: Какой номер ФЗ "О полиции"?')
     if answer.lower()=='3':
