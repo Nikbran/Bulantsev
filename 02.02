@@ -1,0 +1,15 @@
+import math a = int(input()) b = int(input()) c = math.sqrt(bb + aa) print(c)
+
+('Hello, ' + input() + '!')
+
+ n = int(input()) print('The next number for the number ' + str(n) + ' is ' + str(n + 1) + '.') print('The previous number for the number ' + str(n) + ' is ' + str(n - 1) + '.')
+
+ n = int(input()) k = int(input()) print(k // n) print(k % n)
+
+ a = int(input()) b = int(input()) print((a * b) % 109)
+
+ a = int(input()) print(a % 10)
+
+ n = int(input()) print(n // 10 % 10)
+
+ a = int(input()) b = int(input()) L = int(input()) N = int(input()) print(2 * L + (2 * N - 1) * a + 2 * (N - 1) * b)
